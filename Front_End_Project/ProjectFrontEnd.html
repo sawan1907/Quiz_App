@@ -1,0 +1,25 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="projectFE.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <div class="progress-bar"><div class="progress" id="progress"></div></div>
+    <div id="timer">Time left: <span id="time">30</span> sec</div>
+    <div id="quiz">
+      <div class="question" id="question"></div>
+      <div class="options" id="options"></div>
+    </div>
+    <div id="result"></div>
+    <button onclick="restartQuiz()" style="display:none;" id="restartBtn">Restart Quiz</button>
+  </div>
+  <div class="fireworks" id="fireworks"></div>
+
+  <script src="projectFE.js"></script>
+</body>
+</html>
